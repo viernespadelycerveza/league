@@ -39,7 +39,7 @@
       "id": 1,
       "title": "Jornada 1",
       "date": "2026-08-27",
-      "court": "Polideportivo P.8",
+      "court": "Polideportivo P.6",
       "teamA": [
         "antonio",
         "javi"
@@ -50,16 +50,16 @@
       ],
       "sets": [
         [
-          6,
-          2
-        ],
-        [
           3,
           6
         ],
         [
           6,
-          2
+          4
+        ],
+        [
+          8,
+          6
         ]
       ],
       "winner": "A"
