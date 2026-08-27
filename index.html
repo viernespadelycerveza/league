@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Resultados y clasificación por parejas de Pádel y Cerveza">
+  <title>Pádel y Cerveza</title>
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header" id="inicio">
+  <nav class="navbar" aria-label="Navegación principal">
+    <a class="brand" href="#inicio">
+      <img class="brand-logo" src="assets/logo.svg" alt="Logo Pádel y Cerveza">
+      <span><strong>Pádel y Cerveza</strong><small>Liga de amigos</small></span>
+    </a>
+    <button id="menuButton" class="menu-button" type="button" aria-expanded="false" aria-controls="mainMenu" aria-label="Abrir menú"><span></span><span></span><span></span></button>
+    <div id="mainMenu" class="main-menu">
+      <a href="#inicio">Inicio</a>
+      <a href="#resultados">Resultados</a>
+      <a href="#clasificacion">Clasificación</a>
+      <a href="#parejas">Parejas</a>
+      <a href="#jugadores">Jugadores</a>
+      <a href="#estadisticas">Estadísticas</a>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-copy">
+      <img class="hero-brand-logo" src="assets/logo.svg" alt="Escudo de Pádel y Cerveza">
+      <p class="eyebrow">Liga amateur de amigos</p>
+      <h1>Nivel de pádel: del montón.<span>Nivel de cerveza: de Champions.</span></h1>
+      <p class="hero-description">Resultados, estadísticas y clasificación por parejas. Cuando dos jugadores vuelven a competir juntos, sus resultados se acumulan como la misma pareja.</p>
+      <div class="hero-actions"><a class="button primary" href="#resultados">Ver resultados</a><a class="button secondary" href="#clasificacion">Ver clasificación</a></div>
+    </div>
+
+    <aside class="leader-card">
+      <img class="leader-illustration" src="assets/pareja-lider.svg" alt="Trofeo de la pareja líder">
+      <span class="leader-label">Pareja líder</span>
+      <div id="heroLeaderAvatars" class="pair-avatars pair-avatars-large"></div>
+      <strong id="heroLeader">Sin clasificación</strong>
+      <p id="heroLeaderInfo">Añade partidos en data.json</p>
+    </aside>
+  </section>
+</header>
+
+<main>
+  <section class="section dashboard" id="resumen"><div class="section-heading"><p class="eyebrow dark">Temporada</p><h2 id="seasonTitle">Resumen</h2><p>Indicadores calculados automáticamente desde los partidos.</p></div><div id="kpiGrid" class="kpi-grid"></div></section>
+
+  <section class="section" id="resultados">
+    <div class="section-heading"><p class="eyebrow dark">Partidos</p><h2>Resultados</h2><p>Filtra por fecha, jugador, pareja, pista o jornada.</p></div>
+    <div class="filters"><label>Fecha<select id="dateFilter"><option value="all">Todas</option></select></label><label>Jugador<select id="playerFilter"><option value="all">Todos</option></select></label><label class="search">Buscar<input id="textFilter" type="search" placeholder="Pareja, pista o jornada"></label><button id="clearFilters" class="button dark" type="button">Limpiar</button></div>
+    <div class="results-layout"><div id="matchesContainer" class="matches-grid"></div><aside class="latest-panel"><span class="panel-kicker">Último resultado</span><div id="lastMatchPanel"></div></aside></div>
+  </section>
+
+  <section class="ranking-section" id="clasificacion"><div class="ranking-inner"><div class="section-heading light"><p class="eyebrow">Clasificación</p><h2>Ranking por parejas</h2><p>La pareja es la unidad principal de toda la competición.</p></div><div id="podium" class="podium"></div><div class="table-wrap"><table><thead><tr><th>Pos.</th><th>Pareja</th><th>Pts</th><th>PJ</th><th>V</th><th>D</th><th>Sets</th><th>Juegos</th><th>Win</th></tr></thead><tbody id="rankingBody"></tbody></table></div></div></section>
+
+  <section class="section" id="parejas"><div class="section-heading"><p class="eyebrow dark">Combinaciones</p><h2>Todas las parejas</h2><p>Fotos superpuestas y rendimiento acumulado de cada pareja.</p></div><div id="pairsContainer" class="pairs-grid"></div></section>
+
+  <section class="section soft" id="jugadores"><div class="section-heading"><p class="eyebrow dark">Información complementaria</p><h2>Jugadores</h2><p>Los perfiles son informativos. La clasificación oficial es por parejas.</p></div><div id="playersContainer" class="players-grid"></div></section>
+
+  <section class="section" id="estadisticas"><div class="section-heading"><p class="eyebrow dark">Datos</p><h2>Estadísticas por parejas</h2></div><div class="charts-grid"><article class="chart-card"><h3>Puntos por pareja</h3><div id="pointsChart" class="bar-chart"></div></article><article class="chart-card"><h3>Porcentaje de victorias</h3><div id="winRateChart" class="bar-chart"></div></article></div></section>
+</main>
+<footer class="footer"><img src="assets/logo.svg" alt="Logo Pádel y Cerveza"><div><strong>Pádel y Cerveza</strong><p>Nivel de pádel: del montón. Nivel de cerveza: de Champions.</p></div></footer>
+<script src="app.js"></script>
+</body>
+</html>

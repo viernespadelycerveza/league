@@ -1,0 +1,68 @@
+{
+  "season": "Temporada 2026",
+  "settings": {
+    "pointsForWin": 3,
+    "pointsForLoss": 1
+  },
+  "players": [
+    {
+      "id": "antonio",
+      "name": "Antonio A",
+      "role": "Drive sólido",
+      "photo": "images/antonio.png",
+      "description": "Constante desde el fondo y fiable en puntos largos."
+    },
+    {
+      "id": "javi",
+      "name": "Javier D",
+      "role": "Volea agresiva",
+      "photo": "images/javi.png",
+      "description": "Presiona en la red y acelera con bola cómoda."
+    },
+    {
+      "id": "luismi",
+      "name": "Luis Miguel D",
+      "role": "Remate ofensivo",
+      "photo": "images/luismi.png",
+      "description": "Capacidad para cerrar puntos desde posiciones altas."
+    },
+    {
+      "id": "Jorge",
+      "name": "Jorge M",
+      "role": "Control táctico",
+      "photo": "images/jorge.png",
+      "description": "Orden y buena colocación de bola."
+    }
+  ],
+  "matches": [
+    {
+      "id": 1,
+      "title": "Jornada 1",
+      "date": "2026-08-27",
+      "court": "Polideportivo P.8",
+      "teamA": [
+        "antonio",
+        "javi"
+      ],
+      "teamB": [
+        "luismi",
+        "jorge"
+      ],
+      "sets": [
+        [
+          6,
+          2
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          6,
+          2
+        ]
+      ],
+      "winner": "A"
+    }
+  ]
+}
