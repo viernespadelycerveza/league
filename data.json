@@ -7,28 +7,28 @@
   "players": [
     {
       "id": "antonio",
-      "name": "Antonio A",
+      "name": "Antonio",
       "role": "Drive sólido",
       "photo": "images/antonio.png",
-      "description": "Constante desde el fondo y fiable en puntos largos."
+      "description": "Activo hasta que empieza con los tirones...."
     },
     {
       "id": "javi",
-      "name": "Javier D",
+      "name": "Javi",
       "role": "Volea agresiva",
       "photo": "images/javi.png",
-      "description": "Presiona en la red y acelera con bola cómoda."
+      "description": "Su mejor golpe la dejada sin ningún tipo de dudas."
     },
     {
       "id": "luismi",
-      "name": "Luis Miguel D",
+      "name": "Luis Miguel",
       "role": "Remate ofensivo",
       "photo": "images/luismi.png",
-      "description": "Capacidad para cerrar puntos desde posiciones altas."
+      "description": "Juego con buenas intenciones, hasta intenta hasta estirar antes de empezar."
     },
     {
-      "id": "Jorge",
-      "name": "Jorge M",
+      "id": "jorge",
+      "name": "Jorge",
       "role": "Control táctico",
       "photo": "images/jorge.png",
       "description": "Orden y buena colocación de bola."
