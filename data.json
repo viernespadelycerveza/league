@@ -32,7 +32,14 @@
       "role": "Control táctico",
       "photo": "images/jorge.png",
       "description": "Orden y buena colocación de bola."
-    }
+    },
+{
+      "id": "pablo",
+      "name": "Pablo",
+      "role": "Amigo de Jorge",
+      "photo": "images/placeholder.svg",
+      "description": "Buena colocación de bola."
+    }	
   ],
   "matches": [
     {
@@ -63,6 +70,35 @@
         ]
       ],
       "winner": "A"
+    },
+	{
+      "id": 1,
+      "title": "Jornada 2",
+      "date": "2026-09-02",
+      "court": "Pista Jorge",
+      "teamA": [
+        "antonio",
+        "javi"
+      ],
+      "teamB": [
+        "jorge",
+        "pablo"
+      ],
+      "sets": [
+        [
+          6,
+          8
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      "winner": "B"
     }
   ]
 }
