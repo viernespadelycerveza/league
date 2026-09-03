@@ -17,14 +17,14 @@
       "name": "Javi",
       "role": "Volea agresiva",
       "photo": "images/javi.png",
-      "description": "Su mejor golpe la dejada sin ningún tipo de dudas."
+      "description": "Su mejor golpe, la dejada sin ningún tipo de dudas."
     },
     {
       "id": "luismi",
       "name": "Luis Miguel",
       "role": "Remate ofensivo",
       "photo": "images/luismi.png",
-      "description": "Juego con buenas intenciones, hasta intenta hasta estirar antes de empezar."
+      "description": "Juego con buenas intenciones, incluso intenta estirar antes de empezar."
     },
     {
       "id": "jorge",
