@@ -39,7 +39,15 @@
       "role": "Amigo de Jorge",
       "photo": "images/placeholder.svg",
       "description": "Buena colocación de bola."
+    },
+{
+      "id": "jose",
+      "name": "Jose",
+      "role": "Buen juego",
+      "photo": "images/placeholder.svg",
+      "description": "Ha dado clases y se nota."
     }	
+	
   ],
   "matches": [
     {
@@ -132,7 +140,7 @@
 	{
       "id": 4,
       "title": "Jornada 4",
-      "date": "2026-09-11",
+      "date": "2026-09-18",
       "court": "Pista Jorge",
       "teamA": [
         "antonio",
@@ -140,20 +148,20 @@
       ],
       "teamB": [
         "jorge",
-        "luismi"
+        "jose"
       ],
       "sets": [
+        [
+          4,
+          6
+        ],
         [
           6,
           2
         ],
         [
           6,
-          4
-        ],
-        [
-          8,
-          6
+          1
         ]
       ],
       "winner": "A"
