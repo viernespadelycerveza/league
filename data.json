@@ -165,6 +165,35 @@
         ]
       ],
       "winner": "A"
+    },
+	{
+      "id": 5,
+      "title": "Jornada 5",
+      "date": "2026-09-25",
+      "court": "Poli Pista 4",
+      "teamA": [
+        "antonio",
+        "javi"
+      ],
+      "teamB": [
+        "jorge",
+        "luismi"
+      ],
+      "sets": [
+        [
+          4,
+          6
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          6,
+          4
+        ]
+      ],
+      "winner": "B"
     }
   ]
 }
