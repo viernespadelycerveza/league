@@ -198,6 +198,64 @@
         ]
       ],
       "winner": "B"
+    },
+	{
+      "id": 6,
+      "title": "Jornada 6",
+      "date": "2026-10-02",
+      "court": "Poli Pista 6",
+      "teamA": [
+        "antonio",
+        "javi"
+      ],
+      "teamB": [
+        "jorge",
+        "jose"
+      ],
+      "sets": [
+        [
+          6,
+          4
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          6,
+          4
+        ]
+      ],
+      "winner": "A"
+    },
+	{
+      "id": 7,
+      "title": "Jornada 7",
+      "date": "2026-10-13",
+      "court": "Urba Jorge",
+      "teamA": [
+        "antonio",
+        "javi"
+      ],
+      "teamB": [
+        "jorge",
+        "luismi"
+      ],
+      "sets": [
+        [
+          8,
+          9
+        ],
+        [
+          7,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "winner": "B"
     }
   ]
 }
