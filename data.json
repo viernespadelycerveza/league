@@ -39,15 +39,7 @@
       "role": "Amigo de Jorge",
       "photo": "images/placeholder.svg",
       "description": "Buena colocación de bola."
-    },
-{
-      "id": "jose",
-      "name": "Jose",
-      "role": "Buen juego",
-      "photo": "images/placeholder.svg",
-      "description": "Ha dado clases y se nota."
     }	
-	
   ],
   "matches": [
     {
@@ -64,18 +56,7 @@
         "jorge"
       ],
       "sets": [
-        [
-          3,
-          6
-        ],
-        [
-          6,
-          4
-        ],
-        [
-          8,
-          6
-        ]
+        [3,6],[6,4],[8,6]
       ],
       "winner": "A"
     },
@@ -93,18 +74,7 @@
         "pablo"
       ],
       "sets": [
-        [
-          6,
-          8
-        ],
-        [
-          4,
-          6
-        ],
-        [
-          1,
-          6
-        ]
+        [ 6,8],[4,6],[1,6]
       ],
       "winner": "B"
     },
@@ -122,24 +92,31 @@
         "luismi"
       ],
       "sets": [
-        [
-          4,
-          6
-        ],
-        [
-          6,
-          2
-        ],
-        [
-          6,
-          4
-        ]
+        [4,6],[6,2],[6,4]
       ],
       "winner": "A"
     },
 	{
       "id": 4,
       "title": "Jornada 4",
+      "date": "2026-09-11",
+      "court": "Pista Jorge",
+      "teamA": [
+        "antonio",
+        "javi"
+      ],
+      "teamB": [
+        "jorge",
+        "luismi"
+      ],
+      "sets": [
+        [6,2],[6,4],[8,6]
+      ],
+      "winner": "A"
+    },
+	{
+      "id": 5,
+      "title": "Jornada 5",
       "date": "2026-09-18",
       "court": "Pista Jorge",
       "teamA": [
@@ -151,24 +128,13 @@
         "jose"
       ],
       "sets": [
-        [
-          4,
-          6
-        ],
-        [
-          6,
-          2
-        ],
-        [
-          6,
-          1
-        ]
+        [4,6],[6,2],[6,1]
       ],
       "winner": "A"
     },
 	{
-      "id": 5,
-      "title": "Jornada 5",
+      "id": 6,
+      "title": "Jornada 6",
       "date": "2026-09-25",
       "court": "Poli Pista 4",
       "teamA": [
@@ -180,28 +146,13 @@
         "luismi"
       ],
       "sets": [
-        [
-          4,
-          6
-        ],
-        [
-          3,
-          6
-        ],
-        [
-          7,
-          5
-        ],
-        [
-          1,
-          4
-        ]
+        [4,6],[3,6],[7,5],[1,4]
       ],
       "winner": "B"
     },
 	{
-      "id": 6,
-      "title": "Jornada 6",
+      "id": 7,
+      "title": "Jornada 7",
       "date": "2026-10-02",
       "court": "Poli Pista 6",
       "teamA": [
@@ -213,24 +164,13 @@
         "jose"
       ],
       "sets": [
-        [
-          6,
-          4
-        ],
-        [
-          4,
-          6
-        ],
-        [
-          6,
-          4
-        ]
+        [6,4],[4,6],[6,4]
       ],
       "winner": "A"
     },
 	{
-      "id": 7,
-      "title": "Jornada 7",
+      "id": 8,
+      "title": "Jornada 8",
       "date": "2026-10-13",
       "court": "Urba Jorge",
       "teamA": [
@@ -242,18 +182,7 @@
         "luismi"
       ],
       "sets": [
-        [
-          8,
-          9
-        ],
-        [
-          7,
-          5
-        ],
-        [
-          4,
-          6
-        ]
+        [8,9],[7,5],[4,6]
       ],
       "winner": "B"
     }
