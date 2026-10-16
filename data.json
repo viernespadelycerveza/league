@@ -182,7 +182,25 @@
         "luismi"
       ],
       "sets": [
-        [8,9],[7,5],[4,6]
+        [8,9],[7,5]
+      ],
+      "winner": "B"
+    },
+        {
+      "id": 9,
+      "title": "Jornada ",
+      "date": "2026-10-16",
+      "court": "Urba Jorge",
+      "teamA": [
+        "antonio",
+        "javi"
+      ],
+      "teamB": [
+        "jorge",
+        "luismi"
+      ],
+      "sets": [
+        [4,6],[4,6],[6,5]
       ],
       "winner": "B"
     }
