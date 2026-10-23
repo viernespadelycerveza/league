@@ -182,7 +182,7 @@
         "luismi"
       ],
       "sets": [
-        [8,9],[7,5]
+        [8,9],[7,5],[6,4]
       ],
       "winner": "B"
     },
@@ -219,6 +219,24 @@
       ],
       "sets": [
         [4,6],[5,7]
+      ],
+      "winner": "B"
+    },
+{
+      "id": 11,
+      "title": "Jornada 11",
+      "date": "2026-10-23",
+      "court": "Urba Jorge",
+      "teamA": [
+        "antonio",
+        "javi"
+      ],
+      "teamB": [
+        "jorge",
+        "luismi"
+      ],
+      "sets": [
+        [6,4],[7,5]
       ],
       "winner": "B"
     }
