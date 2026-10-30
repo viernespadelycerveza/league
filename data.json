@@ -239,6 +239,24 @@
         [6,4],[7,5]
       ],
       "winner": "A"
+    },
+{
+      "id": 12,
+      "title": "Jornada 12",
+      "date": "2026-10-30",
+      "court": "Urba Jorge",
+      "teamA": [
+        "antonio",
+        "javi"
+      ],
+      "teamB": [
+        "jorge",
+        "luismi"
+      ],
+      "sets": [
+        [4,6],[6,1],[6,3],[3,6],[7,5]
+      ],
+      "winner": "A"
     }
   ]
 }
