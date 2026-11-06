@@ -259,4 +259,24 @@
       "winner": "A"
     }
   ]
+},
+{
+      "id": 13,
+      "title": "Jornada 13",
+      "date": "2026-11-03",
+      "court": "Urba Jorge",
+      "teamA": [
+        "antonio",
+        "javi"
+      ],
+      "teamB": [
+        "jorge",
+        "luismi"
+      ],
+      "sets": [
+        [4,6],[6,3],[6,4]
+      ],
+      "winner": "A"
+    }
+  ]
 }
